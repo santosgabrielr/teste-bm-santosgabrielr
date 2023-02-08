@@ -17,7 +17,7 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Bem-vindo(a). Faça login utilizando seu usuário e senha para acessar a página de registro.</p>
-                <form action="login.php" method="post" autocomplete="on"></form>
+                <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                             <label for="iusuario">Usuário</label>
                             <input type="email" name="usuario" id="iusuario" placeholder="usuario@exemplo.com"
@@ -27,10 +27,12 @@
                         <label for="isenha">Senha</label>
                         <input type="password" name="senha" id="isenha" placeholder="senha" 
                         autocomplete="current-password" required minlength="">
+                    </div>
                     <input type="submit" value="Entrar">
-                    <a href="esqueci.html">
+                    <a href="esqueci.html" class="botao">
                         Esqueci a senha
                     </a>
+                </form>
             </div>
         </section>
     </main>
